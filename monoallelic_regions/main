@@ -1,0 +1,6 @@
+predicted_monoallelic_regions.bed - файл, полученный после применения поиска моноаллельных регионов (sample size = 50, meth_level (44,68), cpg count >= 5, max_length = 6000)
+monoallelic_autosome.bed - первичная фильтрация файла по аутосомам (чтобы исключить вирусные контиги и вариант инактивации Х хромосомы) chr, start, end, cpg_count, mean, list of cpgs methylation in regions
+candidate_regions_map.bed - первичная фильтрация файла по аутосомам, bed формат (chr, start, end)
+modkit_monoallelic_verefication.csv - верификация метилирования модкитом
+after_filtration_map_monoallelic.bed - вторичная фильтрация объединения смежных регионов (filter parameters: bedtools merge -i modkit_monoallelic_verefication.csv -d 1000 -c 8 -o mean)
+after_filtration_candidate_regions_map.bed - после фильтрации перевод в BED файл (chr, start, end)
