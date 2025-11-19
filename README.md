@@ -28,9 +28,9 @@ Imprintome/
 ```
 
 ### Форматы файлов:
-- `BAM (Binary Alignment Map)` - выровненные чтения
-- `BEDmethyl (Browser Extensible Data methylation format)` - файл, содержащий данные метилирования в каждом CpG-динуклеотиду по геному
-- `VCF (Variant Call Format)` - генетические варианты
+- `BAM (Binary Alignment Map)` - файл с выровненными прочтениями
+- `BEDmethyl (Browser Extensible Data methylation format)` - файл, содержащий данные метилирования в каждом CpG-динуклеотиде по геному
+- `VCF (Variant Call Format)` - файл с генетическими вариантами
 - `PED` (Pedigree) - файл структурного описания родственных связей между образцами каждой семьи
 - `*.ipynb' , '*.R' - скрипты для анализа
 
